@@ -48,7 +48,7 @@ gulp.task('url', function() {
   gulp.src(['index.html'])
     .pipe(urlPrefix({
       prefix: '//cdn.xxx.com';
-      attrdata: ["img:src", "img:srcset", "img:s-src", "img:data-src", "script:src", "link:href"]  //×Ô¶¨Òå±êÇ©ÊôĞÔ
+      attrdata: ["img:src", "img:srcset", "img:s-src", "img:data-src", "script:src", "link:href"]  //è‡ªå®šä¹‰æ ‡ç­¾å±æ€§
     }))
     .pipe(gulp.dest('./'));
 });
