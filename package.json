@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-url-prefix-custom",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a gulp plugin for set html url prefix",
   "main": "index.js",
   "dependencies": {

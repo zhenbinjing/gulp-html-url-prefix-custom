@@ -47,7 +47,8 @@ var urlPrefix = require('gulp-html-url-prefix-custom'),
 gulp.task('url', function() {
   gulp.src(['index.html'])
     .pipe(urlPrefix({
-      prefix: '//cdn.xxx.com'
+      prefix: '//cdn.xxx.com';
+      attrdata: ["img:src", "img:srcset", "img:s-src", "img:data-src", "script:src", "link:href"]  //自定义标签属性
     }))
     .pipe(gulp.dest('./'));
 });
